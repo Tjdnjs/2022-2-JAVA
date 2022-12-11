@@ -7,7 +7,8 @@ public class mainThread {
         // FileSearch(from FileSearch.java)
         FileSearch file = new FileSearch();
         Scanner scan = new Scanner(System.in);
-
+        
+        //! 컬렉션 프레임워크
         Map<String, String> dic = new HashMap<String, String>();
 
         // 저장된 열거타입의(from Command.java) 각 요소(cmd)에 대해
